@@ -13,11 +13,11 @@ namespace mclarba.Clientes
     internal class Vajilla
     {
         // Los parámetros del object:
-        public long idVajilla = 0;
-        public string codigoVajilla = "aaaaa";
-        public string nombreVajilla = "aaaaa";
-        public string tipoVajilla = "aaaaa";
-        public int cantidadVajilla = 0;
+        long idVajilla = 0;
+        string codigoVajilla = "aaaaa";
+        string nombreVajilla = "aaaaa";
+        string tipoVajilla = "aaaaa";
+        int cantidadVajilla = 0;
         
         //GETTERS & SETTERS:
         public long IdVajilla { get => idVajilla; set => idVajilla = value; }
